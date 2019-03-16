@@ -7,6 +7,8 @@ The course outline can be found in
 
 https://www.tertiarycourses.com.sg/predictive-analytics-with-orange.html
 
+https://www.tertiarycourses.com.my/predictive-analytics-with-orange-malaysia.html
+
 <p><strong>Module 1 Get Started on Orange</strong></p>
 <ul>
 <li>What is Orange</li>
