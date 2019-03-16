@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="Paint Data" position="(150, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" title="Paint Data" version="" />
+		<node id="1" name="Select Columns" position="(291.5, 151.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Select Columns" version="" />
+		<node id="2" name="Predictions" position="(630.0, 154.0)" project_name="Orange3" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" title="Predictions" version="" />
+		<node id="3" name="Scatter Plot" position="(296.0, 284.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot" version="" />
+		<node id="4" name="Linear Regression" position="(433.0, 152.0)" project_name="Orange3" qualified_name="Orange.widgets.model.owlinearregression.OWLinearRegression" title="Linear Regression" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Predictors" sink_node_id="2" source_channel="Model" source_node_id="4" />
+		<link enabled="true" id="3" sink_channel="Data" sink_node_id="4" source_channel="Data" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'attr1': 'x', 'attr2': 'y', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': True, 'data': [[0.21433777131321677, 0.10936562160898104, 0.0], [0.20909875947680093, 0.07141886078333234, 0.0], [0.13255738906172423, 0.09224972027422282, 0.0], [0.32904869577119367, 0.3101423354254802, 0.0], [0.3757951130302963, 0.46540506649201974, 0.0], [0.3904450797706251, 0.4342492607995729, 0.0], [0.5077082585499972, 0.5687159462557035, 0.0], [0.5827948601982925, 0.5239056477249534, 0.0], [0.5228203231790224, 0.5823014016179388, 0.0], [0.6145770499531344, 0.6335506995536552, 0.0], [0.6644699730562835, 0.6712315636904779, 0.0], [0.6801400319503708, 0.6336808647699266, 0.0], [0.7815043424921397, 0.7634299117302096, 0.0], [0.7370527239843685, 0.8172496214089275, 0.0], [0.9338665114781348, 0.904953835649126, 0.0], [0.8639789767482621, 0.9147075362030271, 0.0]], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01\xfd\x00\x00\x01\x11\x00\x00\x057\x00\x00\x03\xd8\x00\x00\x01\xfd\x00\x00\x01'\x00\x00\x057\x00\x00\x03\xd8\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90", 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgSAAAAY29udHJvbEFyZWFWaXNpYmxlcQKIWBMAAABz
+YXZlZFdpZGdldEdlb21ldHJ5cQNDMgHZ0MsAAgAAAAACEgAAAKQAAARpAAADEQAAAhIAAAC6AAAE
+aQAAAxEAAAAAAAAAAAaQcQRYEgAAAHVzZV9pbnB1dF9mZWF0dXJlc3EFiVgLAAAAX192ZXJzaW9u
+X19xBksBWBAAAABjb250ZXh0X3NldHRpbmdzcQddcQhjT3JhbmdlLndpZGdldHMuc2V0dGluZ3MK
+Q29udGV4dApxCSmBcQp9cQsoWAQAAAB0aW1lcQxHQdci+LAOvLFYBgAAAHZhbHVlc3ENfXEOKFgR
+AAAAZG9tYWluX3JvbGVfaGludHNxD31xEChYAQAAAHhxEUsChnESWAkAAABhdHRyaWJ1dGVxE0sA
+hnEUWAEAAAB5cRVLAoZxFlgFAAAAY2xhc3NxF0sAhnEYdUr+////hnEZaAZLAXVYCgAAAGF0dHJp
+YnV0ZXNxGn1xGyhoEUsCaBVLAnVYBQAAAG1ldGFzcRx9cR11YmF1Lg==
+</properties>
+		<properties format="literal" node_id="2">{'controlAreaVisible': True, 'draw_dist': True, 'output_attrs': True, 'output_predictions': True, 'output_probabilities': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\xbb\x00\x00\x00\xb8\x00\x00\x05\xd3\x00\x00\x03\x1e\x00\x00\x00\xbb\x00\x00\x00\xce\x00\x00\x05\xd3\x00\x00\x03\x1e\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', 'show_attrs': True, 'show_predictions': True, 'show_probabilities': True, '__version__': 1, 'context_settings': []}</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgLAAAAYXV0b19zYW1wbGVxAohYEgAAAGNvbnRyb2xB
+cmVhVmlzaWJsZXEDiFgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEEQzIB2dDLAAIAAAAAAYQAAACv
+AAAF7wAAA4gAAAGEAAAAxQAABe8AAAOIAAAAAAAAAAAGkHEFWAkAAABzZWxlY3Rpb25xBk5YEQAA
+AHRvb2x0aXBfc2hvd3NfYWxscQeIWAUAAABncmFwaHEIfXEJKFgLAAAAYWxwaGFfdmFsdWVxCkuV
+WA0AAABjbGFzc19kZW5zaXR5cQuIWAsAAABqaXR0ZXJfc2l6ZXEMSwpYEwAAAGxhYmVsX29ubHlf
+c2VsZWN0ZWRxDYlYFgAAAG9ydGhvbm9ybWFsX3JlZ3Jlc3Npb25xDolYCwAAAHBvaW50X3dpZHRo
+cQ9LBlgJAAAAc2hvd19ncmlkcRCJWAsAAABzaG93X2xlZ2VuZHERiFgNAAAAc2hvd19yZWdfbGlu
+ZXESiHVYCwAAAF9fdmVyc2lvbl9fcRNLBFgQAAAAY29udGV4dF9zZXR0aW5nc3EUXXEVY09yYW5n
+ZS53aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcRYpgXEXfXEYKFgEAAAAdGltZXEZR0HXIvi/Hp2M
+WAYAAAB2YWx1ZXNxGn1xGyhYCgAAAGF0dHJfY29sb3JxHE5K/v///4ZxHVgKAAAAYXR0cl9sYWJl
+bHEeTkr+////hnEfWAoAAABhdHRyX3NoYXBlcSBOSv7///+GcSFYCQAAAGF0dHJfc2l6ZXEiTkr+
+////hnEjWAYAAABhdHRyX3hxJFgBAAAAeHElS2aGcSZYBgAAAGF0dHJfeXEnWAEAAAB5cShLZoZx
+KWgIfXEqaBNLBHVYCgAAAGF0dHJpYnV0ZXNxK31xLChoJUsCaChLAnVYBQAAAG1ldGFzcS19cS51
+YmF1Lg==
+</properties>
+		<properties format="literal" node_id="4">{'alpha_index': 0, 'auto_apply': True, 'autosend': True, 'controlAreaVisible': True, 'l2_ratio': 0.5, 'learner_name': 'Linear Regression', 'reg_type': 0, 'ridge': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x02y\x00\x00\x01 \x00\x00\x04\x02\x00\x00\x02\x95\x00\x00\x02y\x00\x00\x016\x00\x00\x04\x02\x00\x00\x02\x95\x00\x00\x00\x00\x00\x00\x00\x00\x06\x90', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
