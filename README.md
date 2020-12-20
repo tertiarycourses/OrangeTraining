@@ -1,5 +1,5 @@
 # Predictive Analytics with Orang
-## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
+## by [Tertiary Courses](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Predictive Analytics with Orange](https://www.tertiarycourses.com.sg/predictive-analytics-with-orange.html) course. 
 
